@@ -25,3 +25,24 @@ header {
 .project h2 {
     margin-top: 0;
 }
+.table-style{
+    height:400px;
+    overflow:scroll
+}
+#company-table tr{
+    border-bottom: 1px dashed grey;
+}
+
+#company-table th{
+    background-color: #ddd;
+}
+#company-table th:nth-child(1),
+#company-table th:nth-child(2) {
+    width: 25%;
+}
+
+/* Set the width of the third th to 50% */
+#company-table th:nth-child(3) {
+    width: 50%;
+
+}
